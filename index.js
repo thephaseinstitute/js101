@@ -1,17 +1,10 @@
-const note = 'Ab';
-console.log(note.length);
+/* arrays
 
-const midiMessage = {
-  velocity: 127,
-  noteNumber: 60,
-  type: 'note-on'
-};
+  - getting items
+  - length
+  - array methods
 
-console.log(midiMessage.velocity);
-console.log(midiMessage.noteNumber);
-console.log(midiMessage.type);
-console.log(midiMessage.type.length);
+*/
 
-console.log(midiMessage["t" + "ype"]["length"]);
-
-
+const scale = [ 'Bb', 'C', 'D', 'Eb', 'F', 'G', 'A' ];
+console.log(scale);
